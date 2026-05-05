@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+assets/
+save.json
+.claude/
+*.csproj.user
+guide.md
