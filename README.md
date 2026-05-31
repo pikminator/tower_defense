@@ -1,29 +1,29 @@
 # Tower Defense
 
-C# Windows Forms tower defense.
+C# Windows Forms tower defense game.
 
-## Запуск
+## How to run
 
 ```
 dotnet run
 ```
 
-Нужен .NET 8 SDK.
+Requires .NET 8 SDK.
 
-## Управление
+## Controls
 
-| Клавиша | Действие |
-|---------|----------|
-| Пробел | Пауза |
-| Escape | Сохранить и в меню |
-| Мышь | Строить башни, выбирать, улучшать |
+| Key | Action |
+|-----|--------|
+| Space | Pause |
+| Escape | Save and return to menu |
+| Mouse | Build towers, select, upgrade |
 
-## Механики
+## Mechanics
 
-5 типов башен: тесла, арбалет, пушка, замедление, генератор. Генераторы дают энергию, остальные башни потребляют. Без энергии башня не стреляет.
+5 tower types: tesla, crossbow, cannon, slow, generator. Generators produce energy, other towers consume it. A tower without energy won't fire.
 
-4 типа врагов: обычный, быстрый, бронированный, босс. Каждые 10 врагов в волне появляется босс.
+4 enemy types: normal, fast, armored, boss. A boss appears every 10 enemies in a wave.
 
-50 волн. После победы начисляются гемы. Гемы тратятся на глобальные улучжения в меню технологий.
+50 waves. Gems are awarded after victory. Spend gems on global upgrades in the tech menu.
 
-Прогресс сохраняется в save.json.
+Progress is saved to `save.json`.
